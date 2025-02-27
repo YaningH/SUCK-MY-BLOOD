@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUCK MY BLOOD</title>
+    <style>
+        /* STYLE FOR THE INPUT FIELD */
+        body {
+            background-color: bisque;
+        }
+        #charInput {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #a90101; /* Light red background */
+            color: black; /* Text color */
+            outline: none;
+            text-align: center;
+            position: absolute;
+            bottom: 20px; /* Position at the bottom */
+            left: 30%;
+            transform: translateX(-50%);
+        }
+
+        /* STYLE FOR THE SUBMIT BUTTON */
+        #submitButton {
+            font-size: 24px; /* Increase text size */
+            padding: 15px 30px; /* Increase button size */
+            background-color: #a90101; /* Change button color */
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px; /* Position at the bottom */
+            left: 70%;
+            transform: translateX(-50%);
+        }
+
+        .image {
+            display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: 100vh;        
+        }
+
+        /* STYLE FOR THE IMAGE */
+        #displayedImage {
+            display: none;
+            width: 50%; /* Makes it 50% of its original size */
+            height: auto;        }
+    </style>
+</head>
+<body>
+
+    <!-- INPUT FIELD FOR 1 CHARACTER -->
+    <input type="text" id="charInput" maxlength="1">
+
+    <!-- BUTTON TO DISPLAY IMAGE -->
+    <button id="submitButton">SUCK MY BLOOD</button>
+
+    <!-- IMAGE TO DISPLAY -->
+    <main class="image">
+        <img id="displayedImage" src="" alt="Displayed Image">
+    </main>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
