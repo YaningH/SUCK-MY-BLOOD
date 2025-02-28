@@ -1,6 +1,6 @@
 // Array of images
 const images = [
-    "../Mosquito copy/mosquitoA.png", //A
+    "../images/Mosquito copy/mosquitoA.png", //A
     "../Mosquito copy/mosquitoB.png", //B
     "../Mosquito copy/mosquitoC.png", //C
     "../Mosquito copy/mosquitoD.png", //D
